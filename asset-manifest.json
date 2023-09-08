@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/JosephBlog/static/css/main.bdb8f78d.css",
+    "main.js": "/JosephBlog/static/js/main.11070d58.js",
+    "static/media/BG1.mp4": "/JosephBlog/static/media/BG1.42fd95dfae9106a04e59.mp4",
+    "static/media/Frankfurter Rippchen.jpg": "/JosephBlog/static/media/Frankfurter Rippchen.d2b20f2e1b1fd870696a.jpg",
+    "static/media/Cuy Al Horno.jpg": "/JosephBlog/static/media/Cuy Al Horno.9c2d4b3ba29c9b38b05b.jpg",
+    "static/media/Bangkok, Thailand.jpg": "/JosephBlog/static/media/Bangkok, Thailand.6466bef07699327955b4.jpg",
+    "static/media/Frankfurt am Main, HE, Deutschland.jpg": "/JosephBlog/static/media/Frankfurt am Main, HE, Deutschland.8a5e0cf93e56208271f2.jpg",
+    "static/media/Tyrol, Austria.jpg": "/JosephBlog/static/media/Tyrol, Austria.b7e98c77bcc3abd845f1.jpg",
+    "static/media/San Juan Bautista, PM, Spain.jpg": "/JosephBlog/static/media/San Juan Bautista, PM, Spain.8d2e9147b5e06dfb9b94.jpg",
+    "static/media/Cusco, Peru.jpg": "/JosephBlog/static/media/Cusco, Peru.f9f14cc9dea69ef513a9.jpg",
+    "static/media/Pad Thai.jpg": "/JosephBlog/static/media/Pad Thai.9e243fdbfc6bea9ff255.jpg",
+    "static/media/Khao Pad.jpg": "/JosephBlog/static/media/Khao Pad.5dcae2bdeb00d10d3bf1.jpg",
+    "static/media/Rocoto Relleno.jpg": "/JosephBlog/static/media/Rocoto Relleno.74754934b5d79233e5bf.jpg",
+    "static/media/Grune Sosse.jpg": "/JosephBlog/static/media/Grune Sosse.258398f978deab1a0e23.jpg",
+    "static/media/Mango Sticky Rice.jpg": "/JosephBlog/static/media/Mango Sticky Rice.8d4e34fa80424aa5ba10.jpg",
+    "static/media/Bethmannchen.jpg": "/JosephBlog/static/media/Bethmannchen.f8bf8a64ba6989bad4a4.jpg",
+    "static/media/Aji De Gallina.jpg": "/JosephBlog/static/media/Aji De Gallina.47c791d606a8be30838d.jpg",
+    "static/media/handkäse mit musik.jpg": "/JosephBlog/static/media/handkäse mit musik.127008929394682f7bf1.jpg",
+    "static/media/Massaman Curry.jpg": "/JosephBlog/static/media/Massaman Curry.516d3834ad80800253f8.jpg",
+    "static/media/Chicha Morada.webp": "/JosephBlog/static/media/Chicha Morada.87c204ee74d578418255.webp",
+    "static/media/peru.png": "/JosephBlog/static/media/peru.d27b930228328449f14c.png",
+    "static/media/thailand.png": "/JosephBlog/static/media/thailand.d9d1107ccf6f395dd028.png",
+    "static/media/germany.png": "/JosephBlog/static/media/germany.cc670a050b591bf6656d.png",
+    "index.html": "/JosephBlog/index.html",
+    "main.bdb8f78d.css.map": "/JosephBlog/static/css/main.bdb8f78d.css.map",
+    "main.11070d58.js.map": "/JosephBlog/static/js/main.11070d58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb8f78d.css",
+    "static/js/main.11070d58.js"
+  ]
+}
