@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JoesphBlog/static/css/main.bdb8f78d.css",
-    "main.js": "/JoesphBlog/static/js/main.1f59c7fa.js",
+    "main.js": "/JoesphBlog/static/js/main.190e435b.js",
     "static/media/BG1.mp4": "/JoesphBlog/static/media/BG1.42fd95dfae9106a04e59.mp4",
     "static/media/Frankfurter Rippchen.jpg": "/JoesphBlog/static/media/Frankfurter Rippchen.d2b20f2e1b1fd870696a.jpg",
     "static/media/Cuy Al Horno.jpg": "/JoesphBlog/static/media/Cuy Al Horno.9c2d4b3ba29c9b38b05b.jpg",
@@ -25,10 +25,10 @@
     "static/media/germany.png": "/JoesphBlog/static/media/germany.cc670a050b591bf6656d.png",
     "index.html": "/JoesphBlog/index.html",
     "main.bdb8f78d.css.map": "/JoesphBlog/static/css/main.bdb8f78d.css.map",
-    "main.1f59c7fa.js.map": "/JoesphBlog/static/js/main.1f59c7fa.js.map"
+    "main.190e435b.js.map": "/JoesphBlog/static/js/main.190e435b.js.map"
   },
   "entrypoints": [
     "static/css/main.bdb8f78d.css",
-    "static/js/main.1f59c7fa.js"
+    "static/js/main.190e435b.js"
   ]
 }
