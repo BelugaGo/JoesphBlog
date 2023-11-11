@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import ExploreBgVideo from './BG1.mp4';
 import { HeroContainer, HeroVideo, HeroLink, JoesphM, SmallText, ScrollDown, DrawerButton, HeroDrawer, DrawerBox } from './HeroElement';
 import 'animate.css';
@@ -9,6 +9,16 @@ import { HeroLink as HeroDrawerLink, LinkText as DrawerLinkText } from '../Nav/N
 
 
 function Hero () {
+
+const loadBgRef = useRef(null);
+const [videoPlaying, setVideoPlaying] = useState(false);
+
+useEffect(() => {
+  loadBgRef.current.addEventListener('canplaythrough', () => {
+    setVideoPlaying(true);
+  });
+}
+, []);
 
 const [mobileDrawerActive, setMobileDrawerActive] = useState(window.innerWidth <= 625);
 const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -49,8 +59,11 @@ window.removeEventListener('resize', windowResize);
 
 
   return (
+    <>
      <HeroContainer id='home' maxWidth disableGutters>
-     <HeroVideo maxWidth autoPlay muted loop playsInline component='video' src={ExploreBgVideo} /> 
+     <HeroVideo ref={loadBgRef} maxWidth autoPlay muted playsInline component='video' src={ExploreBgVideo} /> 
+     {videoPlaying && ( 
+     <>
      <JoesphM  variant='h1' className='animate__animated animate__fadeInDown animate__delay-2s animate__slow'>Joesph Max</JoesphM>
      <SmallText className='animate__animated animate__fadeInUp animate__delay-1s'>All it takes is a <span id='push'>push</span></SmallText>
 
@@ -73,8 +86,11 @@ window.removeEventListener('resize', windowResize);
       </DrawerBox>
       </div>
       </HeroDrawer>
+    </>
+      )}
 
       </HeroContainer>
+      </>
   )
 }
 

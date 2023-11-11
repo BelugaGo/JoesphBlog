@@ -11,7 +11,6 @@ align-items: center;
 position: sticky;
 top: 0;
 z-index: 10;
-border-radius: 5px;
 background-color: RGB(0, 31, 63, 0.9);
 
 @media screen and (max-width: 625px) {
